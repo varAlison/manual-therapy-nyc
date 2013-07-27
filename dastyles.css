@@ -1,0 +1,313 @@
+section, header, article, nav, address {
+	display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fefcf6;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #32302a;
+  font-size: 100%;
+}
+
+header {
+  background-color: #646054;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 1%;
+}
+#logo {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.logoMT {
+    font-size: 65%;
+}
+.logoDelia {
+    font-size: 250%;
+    line-height: 80%;
+}
+header h2 {
+  font-size: 50%;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+header nav {
+  text-align: center;
+  margin-top: 1%;
+}
+header nav ul {
+  list-style-type: none;
+  font-size: 125%;
+}
+header nav li {
+  display: inline;
+  margin: 0 2%;
+}
+header nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#main {
+  background-color: #c8c0a9;
+  background-image: url('images/mainBackground.jpg');
+  background-repeat: no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 3;
+}
+
+section h2 {
+  text-align: center;
+  margin: 2% 10%;
+  padding: 2% 0%;
+  text-transform: uppercase;
+  border-bottom: 1px solid #646054;
+  font-size: 200%;
+}
+section p {
+  margin: 0 10%;
+  line-height: 150%;
+}
+
+#conditions {
+  overflow: auto;
+}
+#conditions ul{
+   list-style-type: none;
+}
+#conditionsBody {
+  margin: 0 auto;
+}
+#conditionsBody div h4:first-child {
+  margin: 0 0 5%;    
+}
+#conditionsBody div:last-child {
+  margin: 0; 
+}
+#conditionsBody div h4 {
+  margin: 5% 0;
+}
+
+#contact {
+  clear: both;
+}
+address {
+  font-style: normal;
+}
+.contactTitle {
+  font-weight: bold;
+}
+#contact ul{
+  line-height: 150%;
+}
+#contact h3 {
+  font-size: 100%;
+}
+#map {
+  margin: 5% 0 0;
+}
+
+footer {
+  background-color: #646054;
+  color: #fff;
+  font-size: 70%;
+  padding: 2%;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+}
+
+#top {
+  background-color: #c1bfba;
+  outline: 1px solid #736f65;
+  color: #32302A;
+  font-size: 100%;
+  font-weight: bold;
+  padding: 2%;
+  position: fixed;
+  text-decoration: none;
+  text-transform: uppercase;
+  left: 85%;
+  bottom: 0%;
+  z-index: 2;
+}
+
+/* mobile styles */
+
+/* All none desktop */
+@media only screen and (max-width: 1024px) {
+  #conditionsBody {
+    width: 80%;    
+  }
+  #contact h3 {
+    margin: 4% 10% 0;
+  }
+  #contact p {
+    margin: 0 10%;
+  }
+}
+
+/* Smartphone Portrait */
+@media only screen and (max-width: 320px) {
+  header {
+    padding-bottom: 3%;
+  }
+  header nav ul {
+    margin-top: 3%;
+    font-size: 70%;
+  }
+  #main {
+    height: 360px;
+  }
+  section h2 {
+    margin: 8% 10%;
+    font-size: 150%;
+  }
+  footer {
+    font-size: 60%;
+  }
+  section h3 {
+    margin: 4% 10%;
+    font-size: 120%;
+  }
+  section p {
+    margin: 5% 10% 0;
+  }
+  #conditionsBody div {
+    margin-bottom: 5%;    
+  }
+  #contact ul {
+    margin: 0 10% 0 15%;
+  }
+}
+
+/* Smartphone Landscape */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  header {
+    padding-bottom: 2%;
+  }
+  header nav ul {
+    margin-top: 3%;
+    font-size: 80%;
+  }
+  section h2 {
+    margin: 4% 10%;
+    font-size: 160%;
+  }
+  #main {
+    height: 520px;
+  }
+  section h3 {
+    margin: 4% 10%;
+    font-size: 120%;
+  }
+  section p {
+    margin: 5% 10% 0;
+  }
+  #conditionsBody div {
+    margin-bottom: 5%;    
+  }
+  #contact ul {
+    margin: 0 10% 0 14%;
+  } 
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header {
+    padding-bottom: 2%;
+  }
+  header nav ul {
+    margin-top: 2%;
+    font-size: 100%;
+  }
+  section h2 {
+    margin: 4% 10%;
+    font-size: 160%;
+  }
+  section h3 {
+    margin: 4% 10%;
+    font-size: 160%;
+  }
+  section p {
+    margin: 2% 10% 0;
+  }
+  #main {
+    height: 800px;
+  }
+  #conditionsBody div {
+    width: 30%;
+    float: left;
+    margin-right: 5%; 
+  }
+  #contact ul {
+    margin: 0 10% 0 12%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  header h2 {
+    font-size: 100%;
+  }
+  section h3 {
+    margin: 4% 10%;
+    font-size: 160%;
+  }
+  section p {
+    margin: 2% 10% 0;
+  }
+  #main {
+    height: 1024px;
+  }
+  #conditionsBody div {
+    width: 30%;
+    float: left;
+    margin-right: 5%; 
+  }
+  #contact ul{
+    margin: 0 10% 0 12%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  section h2 {
+    margin: 2% 15%;
+  }
+  section h3 {
+    margin: 2% 15%;
+  }
+  section p {
+    margin: 2% 15% 0;
+  }
+  #main {
+    height: 1024px;
+  }
+  #conditionsBody {
+    width: 70%;    
+  }
+  #conditionsBody div {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+  }
+  #conditionsBody div h4 {
+    margin: 5% 0;    
+  } 
+  #contact h3 {
+    margin: 2% 15% 0;
+  }
+  #contact p {
+    margin: 0 15%;
+  }
+  #contact ul{
+    margin: 0 15% 0 18%;
+  }
+}
+
+
+
