@@ -37,6 +37,14 @@ section p {
   line-height: 150%;
 }
 
+ul{
+  list-style-position:inside;
+  text-indent: -1em;
+}
+li {
+  padding-left: 1em;
+}
+
 #conditions {
   overflow: auto;
 }
@@ -65,13 +73,8 @@ address {
 .contactTitle {
   font-weight: bold;
 }
-#contact ul{
-  line-height: 150%;
-}
-#contact h3 {
-  font-size: 100%;
-  margin: 2% 0;
-}
+
+
 
 
 /* mobile styles */

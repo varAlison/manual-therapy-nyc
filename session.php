@@ -20,8 +20,8 @@
 
 			<h3>Resources:</h3>
 			<ul>	
-				<li><em>Your Inner Physician and You: Craniosacral Therapy and Somatoemotional Release</em> by John E. Upledger</li>
-				<li><em>Understanding the Messages of Your Body: How to Interpret Physical and Emotional Signals to Achieve Optimal Health</em> by Jean-Pierre Barral</li>
+				<li><a href="http://www.amazon.com/Your-Inner-Physician-You-Somatoemotional/dp/1556432461"><em>Your Inner Physician and You: Craniosacral Therapy and Somatoemotional Release</em></a> by John E. Upledger</li>
+				<li><a href="http://www.amazon.com/Understanding-Messages-Your-Body-Interpret/dp/1556436793"><em>Understanding the Messages of Your Body</em></a> by Jean-Pierre Barral</li>
 			</ul>
 
 			<h3>Rates:</h3>
@@ -29,7 +29,7 @@
 				60 min / $125<br />
 				90 min / $165<br />
 				Cash or check<br />
-				Please note that I have a 24 hours cancellation policy.<br />
+				24 hours cancellation policy<br />
 			</p>
 
 		</section>
