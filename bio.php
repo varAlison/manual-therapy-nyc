@@ -1,8 +1,9 @@
-<?php include 'header.php'; ?>
+<?php include 'headertop.php'; ?>
+	<body id = "bio">
+<?php include 'headerbottom.php'; ?>	
 
 		<section id="bio">
-			<h2>bio</h2>
-			<h3>How can Manual Therapy help You?</h3>
+			<h2>How can Manual Therapy help You?</h2>
 			<p>
 				Delia’s career as a manual therapist rose from her extensive on-going research of ways to develop the body, mind and soul’s wellbeing and power. She is currently developing ways to integrate the most recent discoveries in biology and quantum physics into the healing arts.  
 			</p>

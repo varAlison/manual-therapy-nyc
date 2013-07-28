@@ -1,7 +1,8 @@
-<?php include 'header.php'; ?>
+<?php include 'headertop.php'; ?>
+	<body id = "conditions">
+<?php include 'headerbottom.php'; ?>	
 		<section id="conditions">
-			<h2>Conditions</h2>
-			<h3>How Can Manual Therapy Help You?</h3>
+			<h2>How Can Manual Therapy Help You?</h2>
 			<p>
 				A very wide range of conditions can be helped with Manual therapy. This respectful approach releases tensions and restrictions and provides the ideal environment for the nervous system to relax and rejuvenate. The central nervous system is the body’s command center. When it is rebalanced, all other systems in the body will be helped and all conditions will improve. Many people come to Delia when other techniques have not worked. Manual Therapy relieves pain, promotes whole-body health and increases resistance to disease without the use of medications or invasive procedures. That’s why it has become part of the wellness routine for athletes, artists and lay people alike. 
 			</p>

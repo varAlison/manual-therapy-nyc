@@ -1,8 +1,8 @@
-<?php include 'header.php'; ?>
-
+<?php include 'headertop.php'; ?>
+	<body id = "session">
+<?php include 'headerbottom.php'; ?>	
 		<section id="session">
-			<h2>Session</h2>
-			<h3>What Can You Expect In A Session?</h3>
+			<h2>What Can You Expect In A Session?</h2>
 			<p>
 				Manual therapy is a gentle noninvasive hands-on therapy performed on a massage table. This approach supports the body to allow its natural healing process to bring you back to vibrant health. Manual Therapy includes osteopathic techniques such as Craniosacral and Visceral Manipulation. Delia’s work is enhanced by her extensive knowledge and practice of massage, Reiki and meditation.
 			</p>

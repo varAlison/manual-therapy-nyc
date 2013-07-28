@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php include 'headertop.php'; ?>
+	<body id = "contact">
+<?php include 'headerbottom.php'; ?>	
 
 		<section id="contact">
 			<address>

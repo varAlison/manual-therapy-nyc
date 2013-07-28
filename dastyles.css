@@ -27,21 +27,10 @@ header {
   padding-bottom: 1%;
 }
 #logo {
-  font-weight: normal;
-  text-transform: uppercase;
+  margin: 5px auto;
 }
-.logoMT {
-    font-size: 65%;
-}
-.logoDelia {
-    font-size: 250%;
-    line-height: 80%;
-}
-header h2 {
-  font-size: 50%;
-  font-weight: normal;
-  text-transform: uppercase;
-}
+
+
 header nav {
   text-align: center;
   margin-top: 1%;
@@ -59,6 +48,17 @@ header nav li a {
   text-decoration: none;
 }
 
+#about #about-nav a, 
+#session #session-nav a, 
+#conditions #conditions-nav a, 
+#bio #bio-nav a,
+#blog #blog-nav a, 
+#contact #contact-nav a{
+background-color: #ffffff;
+color: #646054;
+}
+
+
 #main {
   background-color: #c8c0a9;
   background-image: url('images/mainBackground.jpg');
@@ -69,12 +69,7 @@ header nav li a {
 }
 
 section h2 {
-  text-align: center;
-  margin: 2% 10%;
-  padding: 2% 0%;
-  text-transform: uppercase;
-  border-bottom: 1px solid #646054;
-  font-size: 200%;
+  margin: 2% 15%;
 }
 section p {
   margin: 0 10%;
