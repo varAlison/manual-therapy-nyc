@@ -4,16 +4,18 @@
 
 		<section id="contact">
 			<address>
-			<h2>Contact</h2>
 			<p>
-				<span class="contactTitle">Phone:</span>  <span class = "code">&#055;&#051;&#056;&#049;&#045;&#055;&#049;&#052;(&#054;&#052;&#054;)&#032;&#049;+</span><br />
-				<span class="contactTitle">Email:</span>  <span class = "code">&#109;&#111;&#099;&#046;&#099;&#121;&#110;&#121;&#112;&#097;&#114;&#101;&#104;&#116;&#108;&#097;&#117;&#110;&#097;&#109;&#064;&#111;&#102;&#110;&#105;</span><br />
-				<span class="contactTitle">Address:</span>  St Denis Building, 80 East 11th street, Suite PH 606, New York, NY 10003
+				<span class="contactTitle">Manual Therapy NYC</span></br>
+				St Denis Building</br>
+				80 East 11th Street, Suite 606</br>
+				New York, NY 10003</br>
+				<span class = "code">&#055;&#051;&#056;&#049;&#045;&#055;&#049;&#052;(&#054;&#052;&#054;)&#032;&#049;+</span></br>
+				<span class = "code">&#109;&#111;&#099;&#046;&#099;&#121;&#110;&#121;&#112;&#097;&#114;&#101;&#104;&#116;&#108;&#097;&#117;&#110;&#097;&#109;&#064;&#111;&#102;&#110;&#105;</span>
 			</p>
 			</address>
 			<h3>Newsletter:</h3>
 			<p>	
-				If you would like to be added to my newsletter, please send an email to <span class = "code">&#109;&#111;&#099;&#046;&#099;&#121;&#110;&#121;&#112;&#097;&#114;&#101;&#104;&#116;&#108;&#097;&#117;&#110;&#097;&#109;&#064;&#111;&#102;&#110;&#105;</span> with the subject: NL list addition. 
+				Send us a note to be added to our newsletter. <span class = "code">&#109;&#111;&#099;&#046;&#099;&#121;&#110;&#121;&#112;&#097;&#114;&#101;&#104;&#116;&#108;&#097;&#117;&#110;&#097;&#109;&#064;&#111;&#102;&#110;&#105;</span>. 
 			</p>	
 		</section>
 		<section id="map">

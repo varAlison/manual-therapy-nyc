@@ -1,5 +1,6 @@
-<?php include 'header.php'; ?>
-
+<?php include 'headertop.php'; ?>
+	<body>
+<?php include 'headerbottom.php'; ?>	
 		<section id="main">
 		</section>
 
