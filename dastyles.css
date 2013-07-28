@@ -24,20 +24,20 @@ header {
   background-color: #646054;
   color: #fff;
   text-align: center;
-  padding-bottom: 1%;
+  padding: 0.5%;
 }
 #logo {
-  margin: 5px auto;
+  margin: 0 auto;
 }
 
 
 header nav {
   text-align: center;
-  margin-top: 1%;
+  margin-top: 0.5%;
 }
 header nav ul {
   list-style-type: none;
-  font-size: 125%;
+  font-size: 90%;
 }
 header nav li {
   display: inline;
@@ -48,16 +48,10 @@ header nav li a {
   text-decoration: none;
 }
 
-#about #about-nav a, 
-#session #session-nav a, 
-#conditions #conditions-nav a, 
-#bio #bio-nav a,
-#blog #blog-nav a, 
-#contact #contact-nav a{
+#about #about-nav a, #session #session-nav a, #conditions #conditions-nav a, #bio #bio-nav a, #blog #blog-nav a, #contact #contact-nav a{
 background-color: #ffffff;
 color: #646054;
 }
-
 
 #main {
   background-color: #c8c0a9;
@@ -68,11 +62,10 @@ color: #646054;
   z-index: 3;
 }
 
-section h2 {
+section {
   margin: 2% 15%;
 }
 section p {
-  margin: 0 10%;
   line-height: 150%;
 }
 
@@ -109,50 +102,22 @@ address {
 }
 #contact h3 {
   font-size: 100%;
-}
-#map {
-  margin: 5% 0 0;
+  margin: 2% 0;
 }
 
 footer {
   background-color: #646054;
   color: #fff;
   font-size: 70%;
-  padding: 2%;
-  position: relative;
-  left: 0px;
-  bottom: 0px;
-}
-
-#top {
-  background-color: #c1bfba;
-  outline: 1px solid #736f65;
-  color: #32302A;
-  font-size: 100%;
-  font-weight: bold;
-  padding: 2%;
-  position: fixed;
-  text-decoration: none;
-  text-transform: uppercase;
-  left: 85%;
+  padding: 1%;
+  position: absolute;
   bottom: 0%;
-  z-index: 2;
+  left: 0%;
+  width: 98%;
+  text-align: center;
 }
 
 /* mobile styles */
-
-/* All none desktop */
-@media only screen and (max-width: 1024px) {
-  #conditionsBody {
-    width: 80%;    
-  }
-  #contact h3 {
-    margin: 4% 10% 0;
-  }
-  #contact p {
-    margin: 0 10%;
-  }
-}
 
 /* Smartphone Portrait */
 @media only screen and (max-width: 320px) {
@@ -167,24 +132,24 @@ footer {
     height: 360px;
   }
   section h2 {
-    margin: 8% 10%;
+    margin: 8% 0;
     font-size: 150%;
   }
   footer {
     font-size: 60%;
   }
   section h3 {
-    margin: 4% 10%;
+    margin: 4% 0;
     font-size: 120%;
   }
   section p {
-    margin: 5% 10% 0;
+    margin: 5% 0 0;
   }
   #conditionsBody div {
     margin-bottom: 5%;    
   }
   #contact ul {
-    margin: 0 10% 0 15%;
+    margin: 0 0 0 5%;
   }
 }
 
@@ -198,24 +163,24 @@ footer {
     font-size: 80%;
   }
   section h2 {
-    margin: 4% 10%;
+    margin: 4% 0;
     font-size: 160%;
   }
   #main {
     height: 520px;
   }
   section h3 {
-    margin: 4% 10%;
+    margin: 4% 0;
     font-size: 120%;
   }
   section p {
-    margin: 5% 10% 0;
+    margin: 5% 0 0;
   }
   #conditionsBody div {
     margin-bottom: 5%;    
   }
   #contact ul {
-    margin: 0 10% 0 14%;
+    margin: 0 0 0 4%;
   } 
 }
 
@@ -228,15 +193,15 @@ footer {
     font-size: 100%;
   }
   section h2 {
-    margin: 4% 10%;
+    margin: 4% 0;
     font-size: 160%;
   }
   section h3 {
-    margin: 4% 10%;
+    margin: 4% 0;
     font-size: 160%;
   }
   section p {
-    margin: 2% 10% 0;
+    margin: 2% 0 0;
   }
   #main {
     height: 800px;
@@ -247,7 +212,7 @@ footer {
     margin-right: 5%; 
   }
   #contact ul {
-    margin: 0 10% 0 12%;
+    margin: 0 0 0 2%;
   }
 }
 
@@ -256,11 +221,11 @@ footer {
     font-size: 100%;
   }
   section h3 {
-    margin: 4% 10%;
+    margin: 4% 0;
     font-size: 160%;
   }
   section p {
-    margin: 2% 10% 0;
+    margin: 2% 0 0;
   }
   #main {
     height: 1024px;
@@ -271,25 +236,22 @@ footer {
     margin-right: 5%; 
   }
   #contact ul{
-    margin: 0 10% 0 12%;
+    margin: 0 0 2%;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   section h2 {
-    margin: 2% 15%;
+    margin: 2% 0;
   }
   section h3 {
-    margin: 2% 15%;
+    margin: 2% 0;
   }
   section p {
-    margin: 2% 15% 0;
+    margin: 2% 0 0;
   }
   #main {
     height: 1024px;
-  }
-  #conditionsBody {
-    width: 70%;    
   }
   #conditionsBody div {
     width: 30%;
@@ -299,14 +261,8 @@ footer {
   #conditionsBody div h4 {
     margin: 5% 0;    
   } 
-  #contact h3 {
-    margin: 2% 15% 0;
-  }
-  #contact p {
-    margin: 0 15%;
-  }
   #contact ul{
-    margin: 0 15% 0 18%;
+    margin: 0 0 0 3%;
   }
 }
 
