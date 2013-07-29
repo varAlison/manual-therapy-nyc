@@ -6,6 +6,7 @@
 		<title>Manual Therapy By Delia</title>
 		<link rel="stylesheet" href="/css/wp-used.css"/>
 		<link rel="stylesheet" href="/css/dastyles.css" />
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans'>
 		<!--[if lt IE 9]>
 			<script src="dist/html5shiv.js"></script>
 		<![endif]-->

@@ -15,7 +15,7 @@
 
 			<h3>Intake:</h3>
 			<p>	
-				Download intake form to complete before your visit.
+				<a href="/downloads/manual-therapy-nyc-intake.pdf" target="_blank">Download intake form to complete before your visit.</a>
 			</p>
 
 			<h3>Resources:</h3>

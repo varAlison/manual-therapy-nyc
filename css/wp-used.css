@@ -3,13 +3,11 @@ header#custom-header {
   background-color: #646054;
   color: #fff;
   text-align: center;
-
+  padding-top: 0.2%;
 }
 #logo {
   margin: 0 auto;
 }
-
-
 header#custom-header nav {
   text-align: center;
   margin-top: 0.5%;
@@ -34,10 +32,8 @@ header#custom-header nav li a, header#custom-header nav li a:visited {
 #bio #bio-nav a, 
 #blog #blog-nav a, 
 #contact #contact-nav a{
-
 	color: #646054;
 }
-
 #about li#about-nav, 
 #session li#session-nav,
 #conditions li#conditions-nav,  
@@ -49,19 +45,19 @@ header#custom-header nav li a, header#custom-header nav li a:visited {
   -moz-border-radius: 3px 3px 0px 0px;
   -webkit-border-radius: 3px 3px 0px 0px;
 }
-
-
-
 footer#custom-footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
   background-color: #646054;
   color: #fff;
   font-size: 70%;
   padding: 1%;
-  /* position: absolute; ## this was behaving funny so took it out for now*/
   bottom: 0%;
   left: 0%;
   width: 98%;
   text-align: center;
+  margin-top: 2%;
 }
 
 

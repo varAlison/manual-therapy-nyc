@@ -7,9 +7,16 @@ section, header#custom-header, article, nav, address {
   margin: 0;
 }
 
+html, body, section {
+  height: 100%;
+}
+body > section {
+  height: auto;
+  min-height: 100%;
+}
 body {
-  background-color: #fefcf6;
-  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif; 
   color: #646054;
   font-size: 100%;
 }
@@ -19,7 +26,6 @@ body {
     direction: rtl;
     unicode-bidi: bidi-override;
 }
-
 
 #main {
   background-color: #c8c0a9;
@@ -31,28 +37,35 @@ body {
 }
 
 section {
-  margin: 2% 15%;
+  margin: 4% 10%;
+  height: 100%;
 }
 section p {
-  line-height: 150%;
+  line-height: 160%;
+  font-size: 90%;
+  margin-bottom: 2%;
+}
+
+section a {
+  color: #6f7c46;
+  text-decoration: none;
 }
 
 ul{
   list-style-position:inside;
   text-indent: -1em;
+  font-size: 90%;
 }
 li {
   padding-left: 1em;
 }
 
-#conditions {
-  overflow: auto;
-}
 #conditions ul{
    list-style-type: none;
 }
 #conditionsBody {
   margin: 0 auto;
+  overflow: auto;
 }
 #conditionsBody div h4:first-child {
   margin: 0 0 0;    
@@ -88,11 +101,9 @@ address {
     margin-top: 3%;
     font-size: 70%;
   }
-
   header#custom-header nav li {
     width: 25%;
   }
-
   #about li#about-nav, 
   #session li#session-nav,
   #conditions li#conditions-nav,  
@@ -109,21 +120,21 @@ address {
     height: 360px;
   }
   section h2 {
-    margin: 8% 0;
+    margin: 5% 0;
     font-size: 150%;
   }
   footer {
     font-size: 60%;
   }
   section h3 {
-    margin: 4% 0;
+    margin: 4% 0 0;
     font-size: 120%;
   }
   section p {
-    margin: 5% 0 0;
+    margin-bottom: 5%;
   }
   #conditionsBody div {
-    margin-bottom: 5%;    
+    margin-top: 5%;    
   }
 }
 
@@ -137,11 +148,11 @@ address {
     font-size: 80%;
   }
   header#custom-header nav li {
-    width: 20%;
+    width: 25%;
   }
 
   section h2 {
-    margin: 4% 0;
+    margin: 5% 0;
     font-size: 160%;
   }
   #about li#about-nav, 
@@ -164,10 +175,10 @@ address {
     font-size: 120%;
   }
   section p {
-    margin: 5% 0 0;
+    margin-bottom: 5%;
   }
   #conditionsBody div {
-    margin-bottom: 5%;    
+    margin-top: 5%;    
   }
 }
 
@@ -181,17 +192,14 @@ address {
     display: inline;
   }
   header#custom-header nav li {
-    width: 17%;
+    width: 15%;
   }
 
   section h2 {
-    margin: 2% 0 0;
+    margin: 2% 0;
   }
   section h3 {
     margin: 2% 0 0;
-  }
-  section p {
-    margin: 0 0 2%;
   }
   #about li#about-nav, 
   #session li#session-nav,
@@ -217,13 +225,10 @@ address {
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   section h2 {
-    margin: 2% 0 0;
+    margin: 2% 0;
   }
   section h3 {
     margin: 2% 0 0;
-  }
-  section p {
-    margin: 0 0 2%;
   }
   #main {
     height: 1024px;
@@ -237,13 +242,10 @@ address {
 
 @media only screen and (min-width: 1024px) {
   section h2 {
-    margin: 2% 0 0;
+    margin: 2% 0;
   }
   section h3 {
     margin: 2% 0 0;
-  }
-  section p {
-    margin: 0 0 2%;
   }
   #main {
     height: 1024px;
