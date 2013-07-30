@@ -19,6 +19,7 @@ header#custom-header nav ul {
 header#custom-header nav li {
   display: inline-block;
   width: 10%;
+  padding-left: 1em;
 }
 header#custom-header nav li a, header#custom-header nav li a:visited {
 	height: 1.5em;
