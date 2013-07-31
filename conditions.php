@@ -7,7 +7,7 @@
 				A very wide range of conditions can be helped with Manual therapy. This respectful approach releases tensions and restrictions and provides the ideal environment for the nervous system to relax and rejuvenate. The central nervous system is the body’s command center. When it is rebalanced, all other systems in the body will be helped and all conditions will improve. Many people come to Delia when other techniques have not worked. Manual Therapy relieves pain, promotes whole-body health and increases resistance to disease without the use of medications or invasive procedures. That’s why it has become part of the wellness routine for athletes, artists and lay people alike. 
 			</p>
 			<h3>Conditions Treated</h3>
-			<p>Manual Therapy helps the body heal itself and thus treats many conditions. Below is a selected list of conditions addressed by Manual Therapy. If you do not see you condition contact us directly to determine if we can help you.</p>
+			<p>Manual Therapy helps the body heal itself. Below is a selected list of conditions addressed by Manual Therapy. If you do not see you condition contact us directly to determine if we can help you.</p>
 			<div id="conditionsBody">	
 				<div>
 					<h4>Nervous System</h4> 
