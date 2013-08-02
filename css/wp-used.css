@@ -1,16 +1,16 @@
 /* header#custom-header styling desined to be unique across wordpress as well */
 header#custom-header {
-  background-color: #646054;
+  background-color: #fff;
   color: #fff;
   text-align: center;
-  padding-top: 0.2%;
+  padding-top: 6%;
 }
 #logo {
   margin: 0 auto;
 }
 header#custom-header nav {
   text-align: center;
-  margin-top: 0.5%;
+  margin-top: 4%;
 }
 header#custom-header nav ul {
   list-style-type: none;
@@ -24,7 +24,7 @@ header#custom-header nav li {
 header#custom-header nav li a, header#custom-header nav li a:visited {
 	height: 1.5em;
 	line-height: 1.5em; 
-  color: #fff;
+  color: #646054;
   text-decoration: none;
 }
 #about #about-nav a, 
@@ -34,7 +34,10 @@ header#custom-header nav li a, header#custom-header nav li a:visited {
 #blog #blog-nav a, 
 #contact #contact-nav a{
 	color: #646054;
+  text-decoration: underline;
 }
+
+/* makes tab style highlight
 #about li#about-nav, 
 #session li#session-nav,
 #conditions li#conditions-nav,  
@@ -46,6 +49,9 @@ header#custom-header nav li a, header#custom-header nav li a:visited {
   -moz-border-radius: 3px 3px 0px 0px;
   -webkit-border-radius: 3px 3px 0px 0px;
 }
+
+*/
+
 footer#custom-footer {
   clear: both;
   position: relative;
