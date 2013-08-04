@@ -46,7 +46,7 @@ header#custom-header {
 header#custom-header nav {
   background-color: #FFFFFF;
   clear: both;
-  margin: 0 25%;
+  margin: 0 19%;
   text-align: center;
 }
 header#custom-header nav ul {
@@ -213,13 +213,13 @@ footer#custom-footer {
     margin-top: 8%;
   }
   header#custom-header nav {
-    margin: 0 5%;
+    margin: 0 2%;
   }
   header#custom-header nav ul {
-    padding: 0 3%;
+    padding: 0 1%;
   }
   header#custom-header nav li {
-    margin-right: 3%;
+    margin-right: 2%;
     width: auto;
   }
   header#custom-header nav #contact-nav  {
@@ -239,7 +239,7 @@ footer#custom-footer {
     margin-top: 8%;
   }
   header#custom-header nav {
-  margin: 0 14%;
+  margin: 0 9%;
   }
 }
 
