@@ -1,26 +1,31 @@
 /* header#custom-header styling desined to be unique across wordpress as well */
 header#custom-header {
-  background-color: #fff;
-  color: #fff;
   text-align: center;
   padding-top: 6%;
   margin: 0 10%;
 }
 #logoTop {
-  margin: 0 auto;
+  margin: 0 auto 0.5%;
   font-family: 'Cinzel', Georgia, serif;
   color: #646054;
-  font-size: 300%;
+  font-size: 400%;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: -0.05em;
+}
+
+#logoTop a {
+  color: #646054;
+  text-decoration: none;
 }
 
 #logoBottom, #address, #phone {
-  color: #b2aea3;
-  font-size: 85%;
+  color: #a29f98;
+  font-size: 75%;
   text-transform: uppercase;
   width: 33.3333%;
   float: left;
+  letter-spacing: 0.2em;
 }
 #address{
   text-align: left;
@@ -32,34 +37,37 @@ header#custom-header {
   text-align: right;
 }
 #navDivider {
-  border-bottom: 2px solid #b2aea3;
+  border-bottom: 2px solid #a29f98;
   margin-bottom: -1%;
   margin-top: 6%;
   clear: both;
-  font-size: 85%;
+  font-size: 75%;
 }
 header#custom-header nav {
-  text-align: center;
+  background-color: #FFFFFF;
   clear: both;
+  margin: 0 25%;
+  text-align: center;
 }
 header#custom-header nav ul {
   list-style-type: none;
-  font-size: 85%;
-  background-color: #fff;
-  margin: 0 20%;
+  font-size: 75%;
+  padding: 0 6%;
 }
 header#custom-header nav li {
   display: inline-block;
-  color: #b2aea3;
-  width: 15%;
-  padding-left: 1em;
+  color: #837f76;
   text-transform: uppercase;
+  width: auto;
+  margin-right: 6%;
+  letter-spacing: 0.2em;
+}
+header#custom-header nav #contact-nav {
+  margin-right: 0;
 }
 
 header#custom-header nav li a, header#custom-header nav li a:visited {
-	height: 1.5em;
-	line-height: 1.5em; 
-  color: #b2aea3;
+  color: #837f76;
   text-decoration: none;
 }
 
@@ -99,13 +107,139 @@ footer#custom-footer {
   z-index: 10;
   background-color: #646054;
   color: #fff;
-  font-size: 70%;
+  font-size: 75%;
   padding: 1%;
   bottom: 0%;
   left: 0%;
   width: 98%;
   text-align: center;
   margin-top: 2%;
+  letter-spacing: 0.2em;
 }
 
+/* mobile styles */
+
+/* Smartphone Portrait */
+@media only screen and (max-width: 320px) {
+  header#custom-header {
+    padding-top: 15%;
+  }
+  #logoTop {
+    font-size: 160%;
+  }
+  #logoBottom, #address, #phone {
+    width: auto;
+    float: none;
+    margin: 0 auto;
+    font-size: 70%;
+    display: inline-block;
+    text-align: center;
+  }
+  #navDivider{
+    border-bottom: 0px;
+    margin: 0;
+  }
+  header#custom-header nav {
+    margin: 8% 0 0;
+  }
+  header#custom-header nav ul {
+    font-size: 70%;
+    padding: 0;
+  }
+  header#custom-header nav li {
+    margin-right: 8%;
+    width: auto;
+  }
+  header#custom-header nav #conditions-nav, header#custom-header nav #contact-nav {
+    margin-right: 0;
+  } 
+}
+
+/* Smartphone Landscape */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  header#custom-header {
+    padding-top: 15%;
+  }
+  #logoTop {
+    font-size: 180%;
+  }
+  #logoBottom, #address, #phone {
+    width: auto;
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+  }
+  #navDivider{
+    border-bottom: 0px;
+    margin: 0;
+  }
+  header#custom-header nav {
+    margin: 10% 0 0;
+  }
+  header#custom-header nav ul {
+    padding: 0;
+  }
+  header#custom-header nav li {
+    margin-right: 11%;
+    width: auto;
+  }
+  header#custom-header nav #conditions-nav, header#custom-header nav #contact-nav {
+    margin-right: 0;
+  } 
+}
+
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  header#custom-header {
+    padding-top: 12%;
+  }
+  #logoTop {
+    font-size: 250%;
+  }
+  #businessInfo{
+    width: 100%;
+  }
+  #logoBottom, #address, #phone {
+    width: auto;
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  #logoBottom, #address {
+    margin-right: 2%;
+  }
+  #navDivider {
+    margin-bottom: -1.75%;
+    margin-top: 8%;
+  }
+  header#custom-header nav {
+    margin: 0 5%;
+  }
+  header#custom-header nav ul {
+    padding: 0 3%;
+  }
+  header#custom-header nav li {
+    margin-right: 3%;
+    width: auto;
+  }
+  header#custom-header nav #contact-nav  {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+  header#custom-header {
+    padding-top: 10%;
+  }
+  #logoTop {
+    font-size: 350%;
+  }
+  #navDivider {
+    margin-bottom: -1.4%;
+    margin-top: 8%;
+  }
+  header#custom-header nav {
+  margin: 0 14%;
+  }
+}
 

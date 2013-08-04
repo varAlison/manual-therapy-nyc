@@ -28,12 +28,11 @@ body {
 }
 
 #main {
-  background-color: #c8c0a9;
-  background-image: url('/images/mainBackground.jpg');
-  background-repeat: no-repeat center;
-  background-size: cover;
-  position: relative;
-  z-index: 3;
+  background-image: url('/images/manual-therapy-homepage.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  width: 80%;
 }
 
 section {
@@ -51,13 +50,20 @@ section a {
   text-decoration: none;
 }
 
-ul{
+section ul{
   list-style-position:inside;
   text-indent: -1em;
   font-size: 90%;
 }
-li {
+section li {
   padding-left: 1em;
+}
+
+#about .aboutImage {
+  float:left; 
+  margin-right: 2%; 
+  width: 33.3333%; 
+  height: auto;
 }
 
 #conditions ul{
@@ -94,36 +100,9 @@ address {
 
 /* Smartphone Portrait */
 @media only screen and (max-width: 320px) {
-  #logoTop {
-    font-size: 160%;
-    margin-top: 10%;
-  }
-  #logoBottom, #address, #phone {
-    width: auto;
-    float: none;
-    margin: 0 auto;
-    font-size: 80%;
-    display: inline-block;
-    text-align: center;
-  }
-   #navDivider {
-      font-size: 80%;
-      margin-bottom: -9%;
-      margin-top: 15%;
-  }
-  header#custom-header#custom-header#custom-header {
-    padding-bottom: 3%;
-  }
-  header#custom-header nav ul {
-    font-size: 80%;
-    margin: 0 5%;
-  }
-  header#custom-header nav li {
-    width: 25%;
-  } 
   section h2 {
-    margin: 5% 0;
-    font-size: 150%;
+    margin: 10% 0 5%;
+    font-size: 130%;
   }
   footer {
     font-size: 60%;
@@ -135,6 +114,10 @@ address {
   section p {
     margin-bottom: 5%;
   }
+  #about .aboutImage {
+    margin: 0 0 5% 0; 
+    width: 100%; 
+  }
   #conditionsBody div {
     margin-top: 5%;    
   }
@@ -142,39 +125,10 @@ address {
 
 /* Smartphone Landscape */
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  #logoTop {
-    font-size: 180%;
-    margin-top: 7%;
-  }
-  #logoBottom, #address, #phone {
-    width: auto;
-    float: none;
-    margin: 0 auto;
-    font-size: 80%;
-    display: inline-block;
-    text-align: center;
-  }
-  #navDivider {
-    font-size: 80%;
-    margin-bottom: -5%;
-    margin-top: 12%;
-  }
-  header#custom-header {
-    padding-bottom: 1%;
-  }
-  header#custom-header nav ul {
-    font-size: 80%;
-    margin: 0 5%;
-  }
-  header#custom-header nav li {
-    width: 25%;
-  }
-
   section h2 {
-    margin: 5% 0;
-    font-size: 160%;
+    margin: 10% 0 5%;
+    font-size: 140%;
   }
-
   section h3 {
     margin: 4% 0;
     font-size: 120%;
@@ -182,49 +136,25 @@ address {
   section p {
     margin-bottom: 5%;
   }
+  #about .aboutImage {
+    margin: 0 0 5% 0; 
+    width: 100%; 
+  }
   #conditionsBody div {
     margin-top: 5%;    
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  header#custom-header {
-    padding: 8% 0 1%;
-  }
-  header#custom-header nav ul {
-    margin: 0 5%;
-    font-size: 80%;
-    display: inline;
-  }
-  header#custom-header nav li {
-    width: 15%;
-  }
-  #businessInfo{
-    width: 100%;
-  }
-  #logoBottom, #address, #phone {
-    width: auto;
-    float: none;
-    margin: 0 auto;
-    font-size: 80%;
-    display: inline-block;
-  }
-  #logoBottom, #address {
-    margin-right: 2%;
-  }
-  #navDivider {
-    margin-bottom: -2.4%;
-    margin-top: 8%;
-  }
+@media only screen and (min-width: 481px) and (max-width: 800px) {
   section h2 {
     margin: 2% 0;
   }
   section h3 {
     margin: 2% 0 0;
   }
-
-  #main {
-    height: 800px;
+  #about .aboutImage {
+    margin: 0 4% 2% 0; 
+    width: 50%; 
   }
   #conditionsBody div {
     width: 30%;
@@ -233,22 +163,16 @@ address {
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  header#custom-header {
-    padding: 8% 0 1%;
-  }
-  #navDivider {
-    margin-bottom: -1.4%;
-    margin-top: 8%;
-  }
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
   section h2 {
     margin: 2% 0;
   }
   section h3 {
     margin: 2% 0 0;
   }
-  #main {
-    height: 1024px;
+  #about .aboutImage {
+    margin: 0 2% 2% 0; 
+    width: 50%; 
   }
   #conditionsBody div {
     width: 30%;
@@ -263,9 +187,6 @@ address {
   }
   section h3 {
     margin: 2% 0 0;
-  }
-  #main {
-    height: 1024px;
   }
   #conditionsBody div {
     width: 30%;
