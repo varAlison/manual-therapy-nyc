@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /home4/simplzl0/public_html/manualtherapynyc/.htpasswd
+Require valid-user
