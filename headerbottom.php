@@ -1,8 +1,11 @@
 		<header id = "custom-header">
 			<div id = "logoTop">Manual Therapy</a></div>
-			<div id = "address">80 East 11th Street, Suite 606</div>
-			<div id = "logoBottom">New York Cit</div>
-			<div id = "phone">+1.646.417.1837</div>
+			<div id = "businessInfo">
+				<div id = "address">80 East 11th Street, Suite 606</div>
+				<div id = "logoBottom">New York City</div>
+				<div id = "phone">+1.646.417.1837</div>
+			</div>
+			<div id = "navDivider"></div>
 			<nav>
 				<ul>
 					<li id = "about-nav"><a href="/about.php">About</a></li>

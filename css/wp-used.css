@@ -4,29 +4,70 @@ header#custom-header {
   color: #fff;
   text-align: center;
   padding-top: 6%;
+  margin: 0 10%;
 }
-#logo {
+#logoTop {
   margin: 0 auto;
+  font-family: 'Cinzel', Georgia, serif;
+  color: #646054;
+  font-size: 300%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#logoBottom, #address, #phone {
+  color: #b2aea3;
+  font-size: 85%;
+  text-transform: uppercase;
+  width: 33.3333%;
+  float: left;
+}
+#address{
+  text-align: left;
+}
+#logoBottom{
+  text-align: center;
+}
+#phone{
+  text-align: right;
+}
+#navDivider {
+  border-bottom: 2px solid #b2aea3;
+  margin-bottom: -1%;
+  margin-top: 6%;
+  clear: both;
+  font-size: 85%;
 }
 header#custom-header nav {
   text-align: center;
-  margin-top: 4%;
+  clear: both;
 }
 header#custom-header nav ul {
   list-style-type: none;
-  font-size: 95%;
+  font-size: 85%;
+  background-color: #fff;
+  margin: 0 20%;
 }
 header#custom-header nav li {
   display: inline-block;
-  width: 10%;
+  color: #b2aea3;
+  width: 15%;
   padding-left: 1em;
+  text-transform: uppercase;
 }
+
 header#custom-header nav li a, header#custom-header nav li a:visited {
 	height: 1.5em;
 	line-height: 1.5em; 
-  color: #646054;
+  color: #b2aea3;
   text-decoration: none;
 }
+
+header#custom-header nav li a:hover {
+  color: #646054;
+  text-decoration: underline;
+}
+
 #about #about-nav a, 
 #session #session-nav a, 
 #conditions #conditions-nav a, 
