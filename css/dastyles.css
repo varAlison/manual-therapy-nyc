@@ -62,7 +62,7 @@ section li {
 #about .aboutImage {
   float:left; 
   margin-right: 2%; 
-  width: 33.3333%; 
+  width: 50%; 
   height: auto;
 }
 
@@ -154,7 +154,7 @@ address {
   }
   #about .aboutImage {
     margin: 0 4% 2% 0; 
-    width: 50%; 
+    width: 60%; 
   }
   #conditionsBody div {
     width: 30%;
@@ -172,7 +172,7 @@ address {
   }
   #about .aboutImage {
     margin: 0 2% 2% 0; 
-    width: 50%; 
+    width: 60%; 
   }
   #conditionsBody div {
     width: 30%;
