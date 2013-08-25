@@ -61,7 +61,7 @@ section li {
 
 .initialImage {
   float:left; 
-  margin-right: 2%; 
+  margin: 0 2% 1% 0; 
   width: 50%; 
   height: auto;
 }
@@ -88,6 +88,9 @@ section li {
 }
 address {
   font-style: normal;
+}
+#map {
+  margin-top: 5%;
 }
 .contactTitle {
   font-weight: bold;
@@ -156,10 +159,18 @@ address {
     margin: 0 4% 2% 0; 
     width: 60%; 
   }
+
   #conditionsBody div {
     width: 30%;
     float: left;
     margin-right: 5%; 
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  #contact .initialImage {
+    margin: 0 0 5% 0; 
+    width: 100%; 
   }
 }
 
@@ -174,6 +185,11 @@ address {
     margin: 0 2% 2% 0; 
     width: 60%; 
   }
+  .contactContent {
+    float: right;
+    width: 38%;
+  }
+
   #conditionsBody div {
     width: 30%;
     float: left;
@@ -187,6 +203,14 @@ address {
   }
   section h3 {
     margin: 2% 0 0;
+  }
+  .initialImage {
+    margin: 0 2% 2% 0; 
+    width: 50%; 
+  }
+  .contactContent {
+    float: right;
+    width: 48%;
   }
   #conditionsBody div {
     width: 30%;
