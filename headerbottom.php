@@ -11,7 +11,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<header id = "custom-header">
 			<div id = "logoTop"><a href="http://www.manualtherapynyc.com">Manual Therapy</a></div>
 			<div id = "businessInfo">
-				<div id = "address">80 East 11th Street, #606</div>
+				<div id = "address">80 East 11th Street, PH 606</div>
 				<div id = "logoBottom">New York City</div>
 				<div id = "phone">+1.646.417.1837</div>
 			</div>

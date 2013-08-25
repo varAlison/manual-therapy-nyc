@@ -4,10 +4,10 @@
 
 		<section id="contact">
 			<address>
-			<p>
+			<p><img src="/images/contact.jpg" alt="manual therapy nyc" class="initialImage">
 				<span class="contactTitle">Manual Therapy NYC</span></br>
 				St Denis Building</br>
-				80 East 11th Street, Suite 606</br>
+				80 East 11th Street, PH 606</br>
 				New York, NY 10003</br>
 				<span class = "code">&#055;&#051;&#056;&#049;&#045;&#055;&#049;&#052;(&#054;&#052;&#054;)&#032;&#049;+</span></br>
 				<span class = "code">&#109;&#111;&#099;&#046;&#099;&#121;&#110;&#121;&#112;&#097;&#114;&#101;&#104;&#116;&#108;&#097;&#117;&#110;&#097;&#109;&#064;&#111;&#102;&#110;&#105;</span>

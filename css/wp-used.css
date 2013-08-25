@@ -9,9 +9,9 @@ header#custom-header {
   font-family: 'Cinzel', Georgia, serif;
   color: #646054;
   font-size: 400%;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.00em;
 }
 
 #logoTop a {
