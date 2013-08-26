@@ -26,6 +26,9 @@
 				24 hours cancellation policy<br />
 			</p>
 
+			<h3>Additional Resources</h3>
+			<p>See my <a href="/blog/resources/">Resources Section</a> for additional information.</p>
+
 		</section>
 	
 <?php include 'footer.php'; ?>
