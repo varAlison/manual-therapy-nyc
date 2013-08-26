@@ -1,11 +1,11 @@
 /* header#custom-header styling desined to be unique across wordpress as well */
 header#custom-header {
   text-align: center;
-  padding-top: 6%;
+  padding-top: 3%;
   margin: 0 10%;
 }
 #logoTop {
-  margin: 0 auto 0.5%;
+  margin: 0 auto 2.5%;
   font-family: 'Cinzel', Georgia, serif;
   color: #646054;
   font-size: 400%;
