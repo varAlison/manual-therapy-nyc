@@ -21,9 +21,9 @@
 			</p>
 			<h2>Massage Licenses</h2>
 			<p>
-				New York State License No: 023776 (2010)<br />
-				NCBTMB No: 590026-10 (2010)<br />
-				MBLEx No: 17149	(2010)<br /><br />
+				New York State License No: 023776<br />
+				NCBTMB No: 590026-10<br />
+				MBLEx No: 17149<br /><br />
 				REIKI<br />
 				Delia was attuned by Rev. Louise Wintersteyn. As a true Master, Delia can trace her lineage to Master Usui.
 			</p>
