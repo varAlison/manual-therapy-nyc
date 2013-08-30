@@ -66,19 +66,14 @@
 						<li>Sports injury and recovery</li>
 						<li>Whiplash and other physical trauma</li>
 						<li>TMJ syndrome and bruxism</li>
-					</ul>
-					<h4>Respiratory System</h4>
-					<ul>	
-						<li>Asthma
-						<li>COPD
 					</ul>				
-				</div>
-				<div>
 					<h4>Respiratory System</h4>
 					<ul>	
-						<li>Asthma
-						<li>COPD
-					</ul>	
+						<li>Asthma</li>
+						<li>COPD</li>
+					</ul>
+				</div>	
+				<div>	
 					<h4>Immune System</h4>
 					<ul>	
 						<li>Allergies</li>
