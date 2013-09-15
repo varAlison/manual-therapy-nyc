@@ -9,9 +9,9 @@
 			<p>	
 				Delia also helps you to understand the symptoms and what might have led to your discomfort. Is there a specific position or activity that creates tension in your body? Do you hold an idea, a belief or an emotion that restricts your natural evolution? In this case Somato Emotional Release, dialog and imagery are useful to develop your physical and emotional awareness, giving you the power to deeply change to a more comfortable, creative and productive version of yourself.
 			</p>
-			<h2>Delia's Biography</h2>
+			<h2>Delia Ahouandjinou's Biography</h2>
 			<p>
-				Delia Ahouandjinou’s career as a manual therapist rose from her extensive on-going research of ways to develop the body, mind and soul’s wellbeing and power. She is currently developing ways to integrate the most recent discoveries in biology and quantum physics into the healing arts.  
+				Delia’s career as a manual therapist rose from her extensive on-going research of ways to develop the body, mind and soul’s wellbeing and power. She is currently developing ways to integrate the most recent discoveries in biology and quantum physics into the healing arts.  
 			</p>
 			<p>
 				Delia studied osteopathic techniques with the Upledger Institute, and at the Barral and Chikly Institute. Delia is a New York Licensed Massage Therapist and a graduate of the Swedish Institute College of Health Sciences in New York City. There she was trained in the Western modalities of massage including deep tissue and Swedish massage, sport and rehabilitation techniques as well as the Eastern modalities of Chinese medicine and shiatsu. Delia has practiced meditation for over 15 years and is also a Reiki Master.
